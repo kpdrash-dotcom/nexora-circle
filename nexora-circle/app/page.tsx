@@ -273,9 +273,10 @@ export default function Home() {
         </div>
 
         <p className="copyright">
-          © {new Date().getFullYear()} NeXora Circle.
-          All Rights Reserved.
-        </p>
+  © 2026 NeXora Circle.
+  All Rights Reserved.
+</p>
+
       </footer>
     </main>
   );

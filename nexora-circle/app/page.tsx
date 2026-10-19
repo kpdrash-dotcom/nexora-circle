@@ -215,63 +215,119 @@ export default function Home() {
   </div>
 </section>
 
+<section className="projects">
+
+  <h2 className="sectionTitle">
+    Projects by Us
+  </h2>
 
 
-<section className="projects-section">
-  <h2>Completed Projects</h2>
+<div className="projects-scroll">
 
-  <div className="projects-scroll">
+  <div className="project-card">
+    <div className="project-content">
 
-    <div className="project-card">
-      <div className="project-info">
-        <img src="naildit.jpeg" alt="project" />
-        <span>Naild.it</span>
+      <div className="project-left">
+        <h3>Naild.it</h3>
+        <a href="#" className="project-btn">
+          Visit Project
+        </a>
       </div>
-      <a
-        href="https://naildit-alpha.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="visit-btn"
-      >
-        Visit
-      </a>
-    </div>
 
-    <div className="project-card">
-      <div className="project-info">
-        <img src="intelligentjani.jpeg" alt="project" />
-        <span>Intelligent_Jani</span>
-      </div>
-      <a
-        href="https://www.tiktok.com/@intelligent_jani?is_from_webapp=1&sender_device=pc"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="visit-btn"
-      >
-        Visit
-      </a>
-    </div>
+      <div className="project-image-frame">
+  <img src="naildit.jpeg"
+       alt="Naild.it"
+       className="project-image"
+  />
+</div>
 
-    <div className="project-card">
-      <div className="project-info">
-        <img src="/icons/web.svg" alt="project" />
-        <span>Locked</span>
-      </div>
-      <a
-        href="https://nexora-circle.netlify.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="visit-btn"
-      >
-        lOCKED
-      </a>
     </div>
-
   </div>
+
+  <div className="project-card">
+    <div className="project-content">
+
+      <div className="project-left">
+        <h3>Naild.it</h3>
+        <a href="#" className="project-btn">
+          Visit Project
+        </a>
+      </div>
+
+      <div className="project-right">
+        <img src="/projects/naildit.webp" alt="Naild.it" />
+      </div>
+
+    </div>
+  </div>
+
+  <div className="project-card">
+    <div className="project-content">
+
+      <div className="project-left">
+        <h3>Naild.it</h3>
+        <a href="#" className="project-btn">
+          Visit Project
+        </a>
+      </div>
+
+      <div className="project-right">
+        <img src="/projects/naildit.webp" alt="Naild.it" />
+      </div>
+
+    </div>
+  </div>
+
+  <div className="project-card">
+    <div className="project-content">
+
+      <div className="project-left">
+        <h3>Naild.it</h3>
+        <a href="#" className="project-btn">
+          Visit Project
+        </a>
+      </div>
+
+      <div className="project-right">
+        <img src="/projects/naildit.webp" alt="Naild.it" />
+      </div>
+
+    </div>
+  </div>
+
+  <div className="project-card">
+    <div className="project-content">
+
+      <div className="project-left">
+        <h3>Naild.it</h3>
+        <a href="#" className="project-btn">
+          Visit Project
+        </a>
+      </div>
+
+      <div className="project-right">
+        <img src="/projects/naildit.webp" alt="Naild.it" />
+      </div>
+
+    </div>
+  </div>
+
+</div>
 </section>
 
 
-
+<h2 className="sectionTitle">
+                
+</h2>
+<h2 className="sectionTitle">
+                
+</h2>
+<h2 className="sectionTitle">
+                
+</h2>
+<h2 className="sectionTitle">
+                
+</h2>
 
 
 

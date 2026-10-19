@@ -215,6 +215,67 @@ export default function Home() {
   </div>
 </section>
 
+
+
+<section className="projects-section">
+  <h2>Completed Projects</h2>
+
+  <div className="projects-scroll">
+
+    <div className="project-card">
+      <div className="project-info">
+        <img src="naildit.jpeg" alt="project" />
+        <span>Naild.it</span>
+      </div>
+      <a
+        href="https://naildit-alpha.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="visit-btn"
+      >
+        Visit
+      </a>
+    </div>
+
+    <div className="project-card">
+      <div className="project-info">
+        <img src="intelligentjani.jpeg" alt="project" />
+        <span>Intelligent_Jani</span>
+      </div>
+      <a
+        href="https://www.tiktok.com/@intelligent_jani?is_from_webapp=1&sender_device=pc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="visit-btn"
+      >
+        Visit
+      </a>
+    </div>
+
+    <div className="project-card">
+      <div className="project-info">
+        <img src="/icons/web.svg" alt="project" />
+        <span>Locked</span>
+      </div>
+      <a
+        href="https://nexora-circle.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="visit-btn"
+      >
+        lOCKED
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
       {/* Footer */}
       <footer className="footer">
         <Image
@@ -238,10 +299,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/instagram.webp"
+              src="/instagram.png"
               alt="Instagram"
-              width={60}
-              height={60}
+              width={40}
+              height={40}
             />
           </a>
 
@@ -251,10 +312,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/whatsapp.webp"
+              src="/whatsapp.png"
               alt="WhatsApp"
-              width={60}
-              height={60}
+              width={40}
+              height={40}
             />
           </a>
 
@@ -264,7 +325,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              src="/tiktok.webp"
+              src="/tiktok.png"
               alt="TikTok"
               width={40}
               height={40}
